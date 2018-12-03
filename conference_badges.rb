@@ -6,23 +6,23 @@ end
 def batch_badge_creator(speaker_list)
   arr = []
   speaker_list.each do |x| arr << "I am #{x}"
-end
 return arr 
+  end
 end
 
 def assign_rooms(speaker_list)
   speaker_list.each_with_index(1) do |value, index|
-end
     puts "Hello, #{index}! You'll be assigned to room #{value}"
+  end
 end
 
 def printer(speaker_list)
   batch_badge_creator(speaker_list).each do |badge|
-end
     puts badge
+  end
 end
 
  assign_rooms(speaker_list).each do |assignment|
-end
     puts assignment
+  end
 end
