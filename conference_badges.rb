@@ -7,7 +7,6 @@ def batch_badge_creator(speaker_list)
   arr = []
   speaker_list.each do |x| arr << "I am #{x}"
 end
-end
 return arr 
 end
 
